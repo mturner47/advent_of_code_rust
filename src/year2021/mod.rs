@@ -5,6 +5,7 @@ mod day4;
 mod day5;
 mod day6;
 mod day7;
+mod day8;
 
 pub(crate) fn run_year(should_run_all: bool) {
     println!("Year 2021:");
@@ -24,4 +25,6 @@ pub(crate) fn run_year(should_run_all: bool) {
         day7::run_day_7(false);
         day7::run_day_7(true);
     }
+    day8::run_day(false);
+    day8::run_day(true);
 }

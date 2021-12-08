@@ -21,7 +21,7 @@ pub(crate) fn run_year(should_run_all: bool) {
         day5::run_day(true);
         day6::run_day(false);
         day6::run_day(true);
+        day7::run_day(false);
+        day7::run_day(true);
     }
-    day7::run_day(false);
-    day7::run_day(true);
 }
